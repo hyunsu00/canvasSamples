@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./node_modules/jspdf/dist/jspdf.umd.js"></script>
+    <script src="./main.js"></script>
+    <title>canvasSamples</title>
+  </head>
+  <body>
+    <h2>Canvas</h2>
+    <canvas id="canvas" width="129" height="54" style="border: solid 1px gray"> </canvas><br />
+    <h2>Exported Image</h2>
+    <img id="exportedImage" width="129" height="54" src="#" /><br />
+    <a id="download" download="image.png">
+      <button type="button" onClick="download()">다운로드</button>
+    </a>
+  </body>
+</html>
