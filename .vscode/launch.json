@@ -5,10 +5,17 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "index.html 디버그",
+			"name": "canvasSample01 디버그",
 			"request": "launch",
 			"type": "pwa-chrome",
-			"url": "http://localhost:8801/index.html",
+			"url": "http://localhost:8801/canvasSample01/index.html",
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"name": "canvasSample02 디버그",
+			"request": "launch",
+			"type": "pwa-chrome",
+			"url": "http://localhost:8801/canvasSample02/index.html",
 			"webRoot": "${workspaceFolder}"
 		}
 	]

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./main.js"></script>
+    <title>canvasSample02</title>
+  </head>
+  <body>
+    <button id="drawCanvas">캔버스로 그리기</button>
+    <h2>SVG -> CANVAS</h2>
+    <div style="position:absolute;width:600px;height:300px;border: 1px solid red;">
+      <div style="position:absolute;">
+        <svg width = "600" height="300" xmlns="http://www.w3.org/2000/svg">
+          <text x="72.5" y="88" fill="#FF0000" font-family="Helvetica" font-size="36" font-style="normal" font-weight="normal" text-decoration="none" transform="rotate(0)" style="white-space: pre">aQbgS김현수</text>
+        </svg>
+      </div>
+      <div style="position:absolute;">
+        <canvas id="canvas" width="600" height="300"> </canvas>
+      </div>
+    </div>
+  </body>
+</html>
